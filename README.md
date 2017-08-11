@@ -1,3 +1,3 @@
-# Xamerin_Curso
+# Xamarin_Curso
 
-- Aplicativos em Xamerin feitos durante curso
+- Aplicativos em Xamarin feitos durante curso
