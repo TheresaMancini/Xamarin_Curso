@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:App3"
+             x:Class="App3.MainPage">
+
+    <StackLayout Margin="10">
+        <Label Text="Aprendendo a fazer apps! " 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" 
+        FontSize="Large"/>
+        <Entry Placeholder="Nome" 
+               VerticalOptions="Center"/>
+        <Switch 
+                HorizontalOptions="Center"/>
+        <Button Text="Ok"
+                BackgroundColor="PeachPuff"
+                Clicked="Button_Clicked"/>
+    </StackLayout>
+
+</ContentPage>
+    

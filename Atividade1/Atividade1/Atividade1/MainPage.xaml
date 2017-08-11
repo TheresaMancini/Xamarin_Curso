@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Atividade1"
+             x:Class="Atividade1.MainPage"
+             Title="Curso Xamarin">
+
+    <StackLayout Margin="10">
+        <Label Text="Atividade 1!" 
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center"
+               FontSize="Large"
+               FontAttributes="Italic"
+               BackgroundColor="BlueViolet"/>
+        <Entry
+            x:Name="Nome_user"
+            Placeholder="Nome"
+            VerticalOptions="Center"
+            />
+        <Entry
+            Placeholder="Telefone"
+            VerticalOptions="Center"
+            />
+        <Entry
+            Placeholder="E-mail"
+            VerticalOptions="Center"
+            />
+        <Button
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Text="Confirma"
+            TextColor="DarkBlue"
+            BackgroundColor="AliceBlue"
+            FontSize="Medium"
+            Clicked="Button_Clicked"/>
+        <Button
+            VerticalOptions="Center"
+            HorizontalOptions="Center"
+            Text="Avançar"
+            BackgroundColor="AntiqueWhite"
+            TextColor="DarkBlue"
+            Clicked="Button_Clicked_1"/>
+    </StackLayout>
+
+</ContentPage>
